@@ -18,10 +18,12 @@ print(stack.pop()) // 1
 ## Installation
 
 ### Swift Package Manager
+Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "
+    .package(url: "https://github.com/DandyLyons/swift-stack", from: "1.0.0")
+]
 ```
 ## Licensing
 This stack implementation was originally released in the Swift Algorithm Club repository. It was originally released under the MIT license. See the original repo, [kodecocodes/swift-algorithm-club](https://github.com/kodecocodes/swift-algorithm-club/tree/master?tab=MIT-1-ov-file) for more information. You can find the original license in the `swift-algorithm-club LICENSE.txt` file. 
